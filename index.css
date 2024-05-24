@@ -1,0 +1,168 @@
+body{
+    background: -webkit-linear-gradient(90deg, #9566fe,#6947f7,#1328f0);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #9566fe,#6947f7,#1328f0);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */             
+    
+    
+}
+
+.navbar{
+    width: 150%;
+    height: 2500px;
+    background: white;
+
+}
+
+*{
+    margin: 0px;
+}
+
+@media screen and (max-width:720px) and (max-height:1280px){
+    .navbar{
+        width: 100%;
+        height: 2500px;
+        background: white;
+        margin-top: 500px;
+        border-radius: 30px;
+
+    }
+
+    .text{
+        width: 85%;
+        height: 390px;
+        margin-left: 5%;
+        border-radius: 30px;
+        position: absolute;
+        top: 570px;
+        background: -webkit-linear-gradient(90deg, #a7a3ff,#d36fdc,#f40994);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #a7a3ff,#d36fdc,#f40994);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 650;
+        padding-left: 20px;
+        padding-top: 35px;
+        color: #440028;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.432);
+        
+    }
+
+    .te{
+        width: 85%;
+        height: 250px;
+        background: -webkit-linear-gradient(90deg, #ce9f2a,#f44772,#675adb);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #ce9f2a,#f44772,#675adb);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+        position: absolute;
+        border-radius: 30px;
+    }
+
+    .io{
+        border-radius: 150px;
+        margin: 20px;
+        box-shadow:0 0 15px #000000;
+    }
+
+    .text1{
+        color: black;
+        font-size: 30px;
+        font-family: Mont;
+        font-weight: 550;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 20px;
+
+    }
+    @font-face {
+        font-family:Mont;  
+        src: url("img/mont_heavydemo.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+    }
+
+
+    .tx{
+        color: rgb(46, 46, 46);
+        font-size: 30px;
+        font-family: Mont;
+        font-weight: 550;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 60px;
+    }
+
+
+    .iop{
+        margin-left: 50px;
+        margin-top: 60px;
+        
+        border-radius: 40px;
+        transition: 0.40s;
+
+    }
+
+    .iop:active{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    .block{
+        width: 27%;
+        height: 220px;
+        margin-top:50px;
+        border-radius: 30px;
+        margin-left: 30px;
+        background: -webkit-linear-gradient(90deg, #7342a2,#c61474,#dc3626);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #7342a2,#c61474,#dc3626);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+       
+    }
+
+    .block1{
+        width: 27%;
+        height: 220px;
+        margin-top:50px;
+        border-radius: 30px;
+        margin-left: 35px;
+        background: -webkit-linear-gradient(90deg, #2d789c,#00bd97,#fae044);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #2d789c,#00bd97,#fae044);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+        
+    }
+
+    .block2{
+        width: 27%;
+        height: 220px;
+        margin-top:50px;
+        border-radius: 30px;
+        margin-left: 40px;
+    
+        background: -webkit-linear-gradient(90deg, #ae6485,#8e619a,#5564a7);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #ae6485,#8e619a,#5564a7);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                        
+        
+    }
+
+    .bl{
+        display: flex;
+        
+    }
+
+    .img_1{
+        margin: 25px;
+
+
+    }
+
+    .cart{
+        margin: 10%;
+        width: 80%;
+    }
+
+    .id_cart{
+        width: 80%;
+        margin-left:10% ;
+        height: 140px;
+        background: #290f4e;
+        border-radius: 20px;
+        position: absolute;
+        top: 1530px;
+        box-shadow:0 0 25px#e2afff ;
+        
+        
+    }
+
+    .text2{
+        margin-left: 28%;
+        margin-top: 50px;
+
+    }
+}
